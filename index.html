@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Part Shortage Report</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Part Shortage Report</h2>
+        <form action="report.php" method="post">
+            <label for="part_name">Part Name:</label>
+            <input type="text" name="part_name" required>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="quantity" required>
+
+            <button type="submit">Submit Report</button>
+        </form>
+    </div>
+</body>
+
+</html>
